@@ -1,8 +1,0 @@
-# THIS FILE HAS BEEN GENERATED AUTOMATICALY
-
-from core.logic import ViewController
-
-class MainViewController(ViewController):
-	
-	def index(self):
-		print('Index view :)')
