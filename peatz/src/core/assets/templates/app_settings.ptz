@@ -1,0 +1,10 @@
+# SETTINGS FOR <%FORMATED_APP_NAME%>
+# OVERRIDES PROJECT SETTINGS
+# THIS FILE HAS BEEN GENERATED AUTOMATICALY
+
+#DATABASES = {}
+
+APPLICATION = {
+	'starting_viewcontroller'				: 'MainViewController',			
+	'app_name'								: 'MyBitcoin',					# USED FOR USERS
+}
