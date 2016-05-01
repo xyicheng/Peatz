@@ -1,0 +1,16 @@
+# THIS FILE HAS BEEN GENERATED AUTOMATICALY
+# <%FORMATED_APP_NAME%> MAIN FILE
+# DO NOT DELETE OR RENAME THIS FILE & THE __INIT__ METHOD
+
+from core.core import Application
+
+class <%FORMATED_APP_NAME%>Application(Application):
+	
+	def __init__(self):
+		super().__init__('<%FORMATED_APP_NAME%>')
+		# INIT YOUR APPLICATION HERE
+		self.start()
+		
+	def start(self):
+		super().start()
+		# FIRST METHOD CALLED ON STARTING
