@@ -1,0 +1,8 @@
+# THIS FILE HAS BEEN GENERATED AUTOMATICALY
+
+from core.ui import View
+
+class MainView(View):
+	
+	def index(self):
+		print('Index view :)')

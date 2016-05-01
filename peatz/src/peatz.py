@@ -1,1 +1,3 @@
-print("Welcome on Peatz")
+
+class Peatz(object):
+    pass;

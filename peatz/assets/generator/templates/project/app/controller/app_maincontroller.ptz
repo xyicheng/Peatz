@@ -1,8 +1,8 @@
 # THIS FILE HAS BEEN GENERATED AUTOMATICALY
 
-from core.logic import ViewController
+from core.logic import Controller
 
-class MainViewController(ViewController):
+class MainController(ViewController):
 	
 	def index(self):
 		print('Index view :)')
