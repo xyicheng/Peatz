@@ -1,2 +1,6 @@
+from core.Object import Object
+
 class View(Object):
-    pass;
+    
+    def render(self):
+        print('View is rendering')

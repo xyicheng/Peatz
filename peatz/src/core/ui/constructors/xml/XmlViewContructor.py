@@ -1,4 +1,0 @@
-
-
-class XmlViewContructor(Constructor):
-    pass;
