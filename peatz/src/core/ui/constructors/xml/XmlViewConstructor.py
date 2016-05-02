@@ -4,4 +4,4 @@ from core.ui.View import View
 class XmlViewConstructor(ViewConstructor):
     
     def construct(self, view_name):
-        return View()
+        print('View in construction') # NEXT TO IMPLEMENT

@@ -9,7 +9,7 @@ class Application(Object):
         self.app_name = self.__class__.__name__
     
     def show(self, view):
-        self.controller = getattr(il.import_module(self.app_name.lower() + '.controller.' + view + 'Controller'), view + 'Controller')();
+        self.controller = getattr(il.import_module(self.app_name.lower() + '.controller.' + view + 'Controller'), view + 'Controller')(self);
         self.controller.render();
         
     def start(self):
