@@ -1,0 +1,2 @@
+class ThreadCollectionException(CollectionException):
+    pass;

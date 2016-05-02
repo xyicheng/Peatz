@@ -1,0 +1,4 @@
+
+
+class QueryBuilder(Object):
+    pass;

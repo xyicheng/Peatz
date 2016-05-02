@@ -1,0 +1,4 @@
+
+
+class ViewConstructor(Object):
+    pass;

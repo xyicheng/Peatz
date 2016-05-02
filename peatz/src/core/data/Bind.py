@@ -1,3 +1,0 @@
-
-class Bind(object):
-    pass;
