@@ -1,7 +1,7 @@
 # common.py
 # Created by Sofiane Taleb on 16/09/2015.
 
-from core.core import Object
+from peatz.core.core import Object
 
 class Status(Object):
 	

@@ -1,5 +1,5 @@
-from core.Object import Object
-from core.ui.View import View
+from peatz.core.Object import Object
+from peatz.core.ui.View import View
 
 class ViewConstructor(Object):
 

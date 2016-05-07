@@ -1,5 +1,5 @@
-from core.ui.constructors.ViewConstructor import ViewConstructor
-from core.ui.View import View
+from peatz.core.ui.constructors.ViewConstructor import ViewConstructor
+from peatz.core.ui.View import View
 
 class XmlViewConstructor(ViewConstructor):
     

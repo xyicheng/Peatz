@@ -2,7 +2,7 @@
 # Bitcoin MAIN FILE
 # DO NOT DELETE OR RENAME THIS FILE & THE __INIT__ METHOD
 
-from core.core import Application
+from peatz.core.core import Application
 
 class BitcoinApplication(Application):
 	

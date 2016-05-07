@@ -1,6 +1,6 @@
 # THIS FILE HAS BEEN GENERATED AUTOMATICALY
 
-from core.logic import Controller
+from peatz.core.logic import Controller
 
 class MainController(ViewController):
 	

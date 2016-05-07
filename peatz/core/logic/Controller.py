@@ -1,5 +1,5 @@
-from core.Object import Object
-from core.ui.constructors.xml.XmlViewConstructor import XmlViewConstructor
+from peatz.core.Object import Object
+from peatz.core.ui.constructors.xml.XmlViewConstructor import XmlViewConstructor
 
 class Controller(Object):
     

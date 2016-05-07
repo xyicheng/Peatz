@@ -1,4 +1,4 @@
-from core.Application import Application
+from peatz.core.Application import Application
 
 class MyApp(Application):
     

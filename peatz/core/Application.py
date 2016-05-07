@@ -1,4 +1,4 @@
-from core.Object import Object
+from peatz.core.Object import Object
 import importlib as il
 
 class Application(Object):

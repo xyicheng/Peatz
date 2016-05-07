@@ -1,4 +1,4 @@
-from core.ui import View
+from peatz.core.ui import View
 
 class MainView(View):
 	

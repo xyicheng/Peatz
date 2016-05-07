@@ -1,4 +1,4 @@
-from core.logic.Controller import Controller
+from peatz.core.logic.Controller import Controller
 
 class MainController(Controller):
     pass;

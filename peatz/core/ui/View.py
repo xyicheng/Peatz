@@ -1,4 +1,4 @@
-from core.Object import Object
+from peatz.core.Object import Object
 
 class View(Object):
 

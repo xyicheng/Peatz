@@ -3,8 +3,8 @@ import settings
 import threading
 import importlib as il
 
-from core.const import *
-from core.template import TemplateManager
+from peatz.core.const import *
+from peatz.core.template import TemplateManager
 
 ######################
 #   Framework Core   #
@@ -94,7 +94,7 @@ class Application(Object):
         app_dir = Application.get_app_dir(app_name)
         if os.path.isdir(app_dir):
             import sys
-            sys.path.append(app_dir);
+            #sys.path.append(app_dir);
         else:
             return false;
     

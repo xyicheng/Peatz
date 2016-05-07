@@ -1,4 +1,4 @@
-from core.logic import ViewController
+from peatz.core.logic import ViewController
 
 class MainViewController(ViewController):
 	
