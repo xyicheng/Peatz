@@ -1,3 +1,5 @@
+from tkinter import *
+
 from peatz.core.Object import Object
 import importlib as il
 
@@ -7,6 +9,8 @@ class Application(Object):
     
     def __init__(self):
         self.app_name = self.__class__.__name__
+        #self.root = Tk()
+        self.root = None
     
     def show(self, view):
         self.controller = getattr(il.import_module(self.app_name.lower() + '.controller.' + view + 'Controller'), view + 'Controller')(self);
