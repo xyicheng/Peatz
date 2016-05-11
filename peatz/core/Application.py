@@ -9,8 +9,7 @@ class Application(Object):
     
     def __init__(self):
         self.app_name = self.__class__.__name__
-        #self.root = Tk()
-        self.root = None
+        self.root = Tk()
     
     def show(self, view):
         self.controller = getattr(il.import_module(self.app_name.lower() + '.controller.' + view + 'Controller'), view + 'Controller')(self);
