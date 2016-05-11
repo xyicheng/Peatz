@@ -1,3 +1,5 @@
+from peatz.core.Object import Object
+
 class Collection(Object):
     
     def __init__(self, items):
@@ -24,3 +26,6 @@ class Collection(Object):
             self.items[key] = value
         else:
             self.items.append(key)
+            
+    def add(self, element) :
+        self.set(self.length(), element);

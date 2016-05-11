@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <View controller="MainController">
-    <Label text="Premier label"></Label>
+    <Label text="Premier label">
+        <size>30</size>
+    </Label>
     <Label>
         <text>Deuxième Label</text>
     </Label>

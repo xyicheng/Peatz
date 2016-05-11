@@ -1,5 +1,6 @@
 import os
 import xml.etree.ElementTree as ET
+import tkinter
 from peatz.core.ui.constructors.ViewConstructor import ViewConstructor
 from peatz.core.ui.View import View
 from peatz.core.constants import *
@@ -16,7 +17,7 @@ class XmlViewConstructor(ViewConstructor):
             self.create(child)
             
     def create(self, element):
-        print(self.has_children(element));
+        self.view.add(getattr(tkinter,element.tag));
         
     def has_children(self, element):
         return True

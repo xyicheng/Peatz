@@ -1,2 +1,0 @@
-class UIElementCollection(Collection):
-    pass
